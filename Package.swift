@@ -20,7 +20,13 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "TrainingSDK",
-            path: "./TrainingSDK.xcframework"
+            path: "./TrainingSDK.xcframework",
+            dependencies: [
+                "TrainingSDK",
+                .product(name: "Alamofire", package: "Alamofire"),
+                .product(name: "YoutubePlayer_in_WKWebView", package: "YoutubePlayer-in-WKWebView"),
+                .product(name: "SwiftyJSON", package: "SwiftyJSON")
+            ]
         ),
         .target(
             name: "TrainingSDKWrapper",
