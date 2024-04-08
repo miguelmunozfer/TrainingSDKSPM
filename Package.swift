@@ -32,7 +32,7 @@ let package = Package(
                 .product(name: "SwiftyJSON", package: "SwiftyJSON"),
                 .product(name: "SwiftDate", package: "SwiftDate")
             ],
-            path: "Sources/TrainingSDKWrapper" // Esta es una ruta ficticia. Deberás crear una estructura que funcione para tu caso específico.
+            path: "Sources/TrainingSDKWrapper"
         )
     ]
 )
