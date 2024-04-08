@@ -1,0 +1,11 @@
+framework module TrainingSDK {
+  umbrella header "TrainingSDK.h"
+  export *
+
+  module * { export * }
+}
+
+module TrainingSDK.Swift {
+  header "TrainingSDK-Swift.h"
+  requires objc
+}

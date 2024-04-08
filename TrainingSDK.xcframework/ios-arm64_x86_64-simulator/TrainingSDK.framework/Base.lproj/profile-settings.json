@@ -1,0 +1,68 @@
+[{
+    "page": 0,
+    "panels": [{
+        "questions": [
+            {
+                "title": "¿Cúal es tu objetivo?",
+                "type": "multipleList",
+                "categoryIds": ["goal1", "goal2"],
+                "categoryTitles": ["Fitness", "Rendimiento"],
+                "identifier": "goal",
+                "info": "activity_info",
+                "isMultipleSelection": false
+            },
+            {
+                "title": "¿Tienes algún problema de salud?",
+                "identifier": "healthProblems",
+                "type": "list",
+                "isMultipleSelection": true
+            },
+            {
+                "title": "¿Estado de forma actual?",
+                "type": "list",
+                "info": "activity_level",
+                "identifier": "trainingLevel",
+                "isMultipleSelection": false
+            },
+            {
+                "title": "Dificultad de ejercicios deseada",
+                "type": "list",
+                "info": "activity_info",
+                "identifier": "exerciseDifficulty",
+                "isMultipleSelection": false
+            },
+            {
+                "title": "¿Dónde quieres entrenar?",
+                "identifier": "trainingPlace",
+                "type": "list",
+                "isMultipleSelection": false
+
+            },
+            {
+                "title": "¿Dispones de algún material de entrenamiento?",
+                "type": "list",
+                "identifier": "equipment",
+                "isMultipleSelection": true
+            },
+            {
+                "title": "Duración de entrenamiento deseada",
+                "type": "list",
+                "identifier": "trainingDuration",
+                "isMultipleSelection": false
+            },
+            {
+                "title": "Días de entrenamiento",
+                "type": "list",
+                "size": "medium",
+                "identifier": "trainingDays",
+                "isMultipleSelection": true
+            },
+            {
+                "title": "Clases dirigidas",
+                "type": "list",
+                "identifier": "classes",
+                "isMultipleSelection": true
+            }
+        ]
+    }]
+}]
