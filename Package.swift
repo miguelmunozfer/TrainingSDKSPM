@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "TrainingSDK",
     platforms: [
-       .iOS(.v12) // Ajusta esto a la versión mínima de iOS que soporte tu SDK.
+       .iOS(.v12)
     ],
     products: [
         .library(
@@ -14,26 +14,23 @@ let package = Package(
     dependencies: [
         // Dependencias de tu SDK
         .package(url: "https://github.com/Alamofire/Alamofire", .exact("5.4.0")),
-        .package(url: "https://github.com/hmhv/YoutubePlayer-in-WKWebView", .upToNextMajor(from: "0.3.9")),
-        .package(url: "https://github.com/SwiftyJSON/SwiftyJSON", .exact("5.0.0")),
+        .package(url: "https://github.com/SwiftyJSON/SwiftyJSON", .exact("5.0.0"))
     ],
     targets: [
         .binaryTarget(
             name: "TrainingSDK",
-            path: "./TrainingSDK.xcframework",
-            dependencies: [
-                "TrainingSDK",
-                .product(name: "Alamofire", package: "Alamofire"),
-                .product(name: "YoutubePlayer_in_WKWebView", package: "YoutubePlayer-in-WKWebView"),
-                .product(name: "SwiftyJSON", package: "SwiftyJSON")
-            ]
+            path: "./TrainingSDK.xcframework"
+        ),
+        .binaryTarget(
+            name: "WeFitterLib",
+            path: "./WeFitterLib.xcframework"
         ),
         .target(
             name: "TrainingSDKWrapper",
             dependencies: [
                 "TrainingSDK",
+                "WeFitterLib",
                 .product(name: "Alamofire", package: "Alamofire"),
-                .product(name: "YoutubePlayer_in_WKWebView", package: "YoutubePlayer-in-WKWebView"),
                 .product(name: "SwiftyJSON", package: "SwiftyJSON")
             ],
             path: "Sources/TrainingSDKWrapper"
