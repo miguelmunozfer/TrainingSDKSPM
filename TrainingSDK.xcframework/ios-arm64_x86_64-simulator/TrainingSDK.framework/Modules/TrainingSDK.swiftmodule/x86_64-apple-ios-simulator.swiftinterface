@@ -4,14 +4,13 @@
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
 import AVKit
-import Alamofire
 import CoreMIDI
 import DeveloperToolsSupport
 import Foundation
+import Instructions
 import SafariServices
 import Swift
 import SwiftUI
-import SwiftyJSON
 import UIKit
 import WeFitterLib
 import _Concurrency

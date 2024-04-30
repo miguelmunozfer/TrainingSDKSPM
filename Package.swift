@@ -13,8 +13,8 @@ let package = Package(
     ],
     dependencies: [
         // Dependencias de tu SDK
-        .package(url: "https://github.com/Alamofire/Alamofire", .exact("5.4.0")),
-        .package(url: "https://github.com/SwiftyJSON/SwiftyJSON", .exact("5.0.0"))
+        .package(url: "https://github.com/ChartsOrg/Charts", .exact("5.0.0")),
+        .package(url: "https://github.com/ephread/Instructions", .exact("2.3.0"))
     ],
     targets: [
         .binaryTarget(
@@ -30,8 +30,8 @@ let package = Package(
             dependencies: [
                 "TrainingSDK",
                 "WeFitterLib",
-                .product(name: "Alamofire", package: "Alamofire"),
-                .product(name: "SwiftyJSON", package: "SwiftyJSON")
+                .product(name: "DGCharts", package: "Charts"),
+                .product(name: "Instructions", package: "Instructions")
             ],
             path: "Sources/TrainingSDKWrapper"
         )
