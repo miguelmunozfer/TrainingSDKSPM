@@ -13,7 +13,7 @@ let package = Package(
     ],
     dependencies: [
         // Dependencias de tu SDK
-        .package(url: "https://github.com/ChartsOrg/Charts", .exact("5.0.0")),
+        .package(url: "https://github.com/ChartsOrg/Charts", .upToNextMajor(from: "5.0.0")),
         .package(url: "https://github.com/ephread/Instructions", .exact("2.3.0"))
     ],
     targets: [
