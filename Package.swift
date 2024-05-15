@@ -13,7 +13,6 @@ let package = Package(
     ],
     dependencies: [
         // Dependencias de tu SDK
-        .package(url: "https://github.com/ChartsOrg/Charts", .upToNextMajor(from: "5.1.0")),
         .package(url: "https://github.com/ephread/Instructions", .exact("2.3.0"))
     ],
     targets: [
@@ -30,7 +29,6 @@ let package = Package(
             dependencies: [
                 "TrainingSDK",
                 "WeFitterLib",
-                .product(name: "DGCharts", package: "Charts"),
                 .product(name: "Instructions", package: "Instructions")
             ],
             path: "Sources/TrainingSDKWrapper"
