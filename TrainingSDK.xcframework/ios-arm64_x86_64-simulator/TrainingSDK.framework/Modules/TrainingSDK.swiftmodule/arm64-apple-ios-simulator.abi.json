@@ -22759,56 +22759,84 @@
     {
       "filePath": "\/Users\/mmunozfer\/Documents\/TrainingSDKV2CodeSPM\/TrainingSDKCode\/SDKCode\/Stats\/DataServiceStats.swift",
       "kind": "StringLiteral",
-      "offset": 3877,
+      "offset": 3866,
+      "length": 124,
+      "value": "\"ESTADÍSTICAS DESDE \""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TrainingSDKV2CodeSPM\/TrainingSDKCode\/SDKCode\/Stats\/DataServiceStats.swift",
+      "kind": "StringLiteral",
+      "offset": 3923,
+      "length": 1,
+      "value": "\", HASTA: \""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TrainingSDKV2CodeSPM\/TrainingSDKCode\/SDKCode\/Stats\/DataServiceStats.swift",
+      "kind": "StringLiteral",
+      "offset": 3969,
+      "length": 1,
+      "value": "\"\n\n\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TrainingSDKV2CodeSPM\/TrainingSDKCode\/SDKCode\/Stats\/DataServiceStats.swift",
+      "kind": "StringLiteral",
+      "offset": 3989,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TrainingSDKV2CodeSPM\/TrainingSDKCode\/SDKCode\/Stats\/DataServiceStats.swift",
+      "kind": "StringLiteral",
+      "offset": 4172,
       "length": 9,
       "value": "\"workout\""
     },
     {
       "filePath": "\/Users\/mmunozfer\/Documents\/TrainingSDKV2CodeSPM\/TrainingSDKCode\/SDKCode\/Stats\/DataServiceStats.swift",
       "kind": "Array",
-      "offset": 4011,
+      "offset": 4306,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/mmunozfer\/Documents\/TrainingSDKV2CodeSPM\/TrainingSDKCode\/SDKCode\/Stats\/DataServiceStats.swift",
       "kind": "StringLiteral",
-      "offset": 4098,
+      "offset": 4393,
       "length": 10,
       "value": "\"activity\""
     },
     {
       "filePath": "\/Users\/mmunozfer\/Documents\/TrainingSDKV2CodeSPM\/TrainingSDKCode\/SDKCode\/Stats\/DataServiceStats.swift",
       "kind": "Array",
-      "offset": 4234,
+      "offset": 4529,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/mmunozfer\/Documents\/TrainingSDKV2CodeSPM\/TrainingSDKCode\/SDKCode\/Stats\/DataServiceStats.swift",
       "kind": "StringLiteral",
-      "offset": 4322,
+      "offset": 4617,
       "length": 11,
       "value": "\"equipment\""
     },
     {
       "filePath": "\/Users\/mmunozfer\/Documents\/TrainingSDKV2CodeSPM\/TrainingSDKCode\/SDKCode\/Stats\/DataServiceStats.swift",
       "kind": "Array",
-      "offset": 4460,
+      "offset": 4755,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/mmunozfer\/Documents\/TrainingSDKV2CodeSPM\/TrainingSDKCode\/SDKCode\/Stats\/DataServiceStats.swift",
       "kind": "StringLiteral",
-      "offset": 4547,
+      "offset": 4842,
       "length": 10,
       "value": "\"wearable\""
     },
     {
       "filePath": "\/Users\/mmunozfer\/Documents\/TrainingSDKV2CodeSPM\/TrainingSDKCode\/SDKCode\/Stats\/DataServiceStats.swift",
       "kind": "Array",
-      "offset": 4683,
+      "offset": 4978,
       "length": 2,
       "value": "[]"
     },
