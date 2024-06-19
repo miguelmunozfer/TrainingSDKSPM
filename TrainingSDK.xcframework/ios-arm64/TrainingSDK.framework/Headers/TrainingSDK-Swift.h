@@ -280,6 +280,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import CoreFoundation;
 @import ObjectiveC;
 @import UIKit;
+@import WebKit;
 #endif
 
 #endif
@@ -300,7 +301,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
-
 
 SWIFT_CLASS("_TtC11TrainingSDK12HCVimeoVideo")
 @interface HCVimeoVideo : NSObject
@@ -337,19 +337,16 @@ SWIFT_CLASS("_TtC11TrainingSDK20VitaleViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class WKWebView;
+@class WKNavigationAction;
 
-SWIFT_CLASS("_TtC11TrainingSDK12YTPlayerView")
-@interface YTPlayerView : UIView
+/// Embed and control YouTube videos
+SWIFT_CLASS("_TtC11TrainingSDK17YouTubePlayerView")
+@interface YouTubePlayerView : UIView <WKNavigationDelegate>
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-@class UIWebView;
-@class NSURLRequest;
-
-@interface YTPlayerView (SWIFT_EXTENSION(TrainingSDK)) <UIWebViewDelegate>
-- (BOOL)webView:(UIWebView * _Nonnull)webView shouldStartLoadWithRequest:(NSURLRequest * _Nonnull)request navigationType:(UIWebViewNavigationType)navigationType SWIFT_WARN_UNUSED_RESULT;
-- (void)webView:(UIWebView * _Nonnull)webView didFailLoadWithError:(NSError * _Nonnull)error;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (void)layoutSubviews;
+- (void)webView:(WKWebView * _Nonnull)webView decidePolicyForNavigationAction:(WKNavigationAction * _Nonnull)navigationAction decisionHandler:(void (^ _Nonnull)(WKNavigationActionPolicy))decisionHandler;
 @end
 
 #endif

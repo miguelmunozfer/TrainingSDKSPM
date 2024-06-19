@@ -14,6 +14,7 @@ import Swift
 import SwiftUI
 import UIKit
 import WeFitterLib
+import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
@@ -28,155 +29,6 @@ public class Stat : Swift.Codable {
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
-}
-public enum YTPlayerState : Swift.String {
-  case unstarted
-  case ended
-  case playing
-  case paused
-  case buffering
-  case queued
-  case unknown
-  public init?(rawValue: Swift.String)
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
-    get
-  }
-}
-public enum YTPlaybackQuality : Swift.String {
-  case small
-  case medium
-  case large
-  case hd720
-  case hd1080
-  case highRes
-  case auto
-  case defaults
-  case unknown
-  public init?(rawValue: Swift.String)
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
-    get
-  }
-}
-public enum YTPlayerError : Swift.String {
-  case invalidParam
-  case html5Error
-  case videoNotFound
-  case notEmbeddable
-  case cannotFindVideo
-  case sameAsNotEmbeddable
-  case unknown
-  public init?(rawValue: Swift.String)
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
-    get
-  }
-}
-public enum YTPlayerCallback : Swift.String {
-  case onReady
-  case onStateChange
-  case onPlaybackQualityChange
-  case onError
-  case onPlayTime
-  case onYouTubeIframeAPIReady
-  case onYouTubeIframeAPIFailedToLoad
-  public init?(rawValue: Swift.String)
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
-    get
-  }
-}
-public enum YTRegexPatterns : Swift.String {
-  case embedUrl
-  case adUrl
-  case oAuth
-  case staticProxy
-  case syndication
-  public init?(rawValue: Swift.String)
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
-    get
-  }
-}
-public protocol YTPlayerViewDelegate {
-  func playerViewDidBecomeReady(_ playerView: TrainingSDK.YTPlayerView)
-  func playerView(_ playerView: TrainingSDK.YTPlayerView, didChangeTo state: TrainingSDK.YTPlayerState)
-  func playerView(_ playerView: TrainingSDK.YTPlayerView, didChangeTo quality: TrainingSDK.YTPlaybackQuality)
-  func playerView(_ playerView: TrainingSDK.YTPlayerView, receivedError error: TrainingSDK.YTPlayerError)
-  func playerView(_ playerView: TrainingSDK.YTPlayerView, didPlayTime playTime: Swift.Float)
-  func playerViewPreferredWebViewBackgroundColor(_ playerView: TrainingSDK.YTPlayerView) -> UIKit.UIColor
-  func playerViewPreferredInitialLoadingView(_ playerView: TrainingSDK.YTPlayerView) -> UIKit.UIView?
-}
-extension TrainingSDK.YTPlayerViewDelegate {
-  public func playerViewDidBecomeReady(_ playerView: TrainingSDK.YTPlayerView)
-  public func playerView(_ playerView: TrainingSDK.YTPlayerView, didChangeTo state: TrainingSDK.YTPlayerState)
-  public func playerView(_ playerView: TrainingSDK.YTPlayerView, didChangeTo quality: TrainingSDK.YTPlaybackQuality)
-  public func playerView(_ playerView: TrainingSDK.YTPlayerView, receivedError error: TrainingSDK.YTPlayerError)
-  public func playerView(_ playerView: TrainingSDK.YTPlayerView, didPlayTime playTime: Swift.Float)
-  public func playerViewPreferredWebViewBackgroundColor(_ playerView: TrainingSDK.YTPlayerView) -> UIKit.UIColor
-  public func playerViewPreferredInitialLoadingView(_ playerView: TrainingSDK.YTPlayerView) -> UIKit.UIView?
-}
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class YTPlayerView : UIKit.UIView {
-  @_Concurrency.MainActor(unsafe) open var delegate: (any TrainingSDK.YTPlayerViewDelegate)?
-  @_Concurrency.MainActor(unsafe) public func load(videoId: Swift.String, playerVars: [Swift.String : Any]? = nil) -> Swift.Bool
-  @_Concurrency.MainActor(unsafe) public func load(playlistId: Swift.String, playerVars: [Swift.String : Any]? = nil) -> Swift.Bool
-  @_Concurrency.MainActor(unsafe) public func playVideo()
-  @_Concurrency.MainActor(unsafe) public func pauseVideo()
-  @_Concurrency.MainActor(unsafe) public func stopVideo()
-  @_Concurrency.MainActor(unsafe) public func seek(seekToSeconds: Swift.Float, allowSeekAhead: Swift.Bool)
-  @_Concurrency.MainActor(unsafe) public func cue(videoId: Swift.String, startSeconds: Swift.Float, suggestedQuality: TrainingSDK.YTPlaybackQuality)
-  @_Concurrency.MainActor(unsafe) public func cue(videoId: Swift.String, startSeconds: Swift.Float, endSeconds: Swift.Float, suggestedQuality: TrainingSDK.YTPlaybackQuality)
-  @_Concurrency.MainActor(unsafe) public func load(videoId: Swift.String, startSeconds: Swift.Float, suggestedQuality: TrainingSDK.YTPlaybackQuality)
-  @_Concurrency.MainActor(unsafe) public func load(videoId: Swift.String, startSeconds: Swift.Float, endSeconds: Swift.Float, suggestedQuality: TrainingSDK.YTPlaybackQuality)
-  @_Concurrency.MainActor(unsafe) public func cue(videoUrl: Swift.String, startSeconds: Swift.Float, suggestedQuality: TrainingSDK.YTPlaybackQuality)
-  @_Concurrency.MainActor(unsafe) public func cue(videoUrl: Swift.String, startSeconds: Swift.Float, endSeconds: Swift.Float, suggestedQuality: TrainingSDK.YTPlaybackQuality)
-  @_Concurrency.MainActor(unsafe) public func load(videoUrl: Swift.String, startSeconds: Swift.Float, suggestedQuality: TrainingSDK.YTPlaybackQuality)
-  @_Concurrency.MainActor(unsafe) public func load(videoUrl: Swift.String, startSeconds: Swift.Float, endSeconds: Swift.Float, suggestedQuality: TrainingSDK.YTPlaybackQuality)
-  @_Concurrency.MainActor(unsafe) public func cue(playlistId: Swift.String, index: Swift.Int, startSeconds: Swift.Float, suggestedQuality: TrainingSDK.YTPlaybackQuality)
-  @_Concurrency.MainActor(unsafe) public func cue(videoIds: [Swift.String], index: Swift.Int, startSeconds: Swift.Float, suggestedQuality: TrainingSDK.YTPlaybackQuality)
-  @_Concurrency.MainActor(unsafe) public func load(playlistId: Swift.String, index: Swift.Int, startSeconds: Swift.Float, suggestedQuality: TrainingSDK.YTPlaybackQuality)
-  @_Concurrency.MainActor(unsafe) public func load(videoIds: [Swift.String], index: Swift.Int, startSeconds: Swift.Float, suggestedQuality: TrainingSDK.YTPlaybackQuality)
-  @_Concurrency.MainActor(unsafe) public func nextVideo()
-  @_Concurrency.MainActor(unsafe) public func previousVideo()
-  @_Concurrency.MainActor(unsafe) public func playVideo(at index: Swift.Int)
-  @_Concurrency.MainActor(unsafe) public var playbackRate: Swift.Float {
-    get
-    set
-  }
-  @_Concurrency.MainActor(unsafe) public func availablePlaybackRates() -> [Swift.Float]?
-  @_Concurrency.MainActor(unsafe) public func set(loop: Swift.Bool)
-  @_Concurrency.MainActor(unsafe) public func set(shuffle: Swift.Bool)
-  @_Concurrency.MainActor(unsafe) public func videoLoadedFraction() -> Swift.Float
-  @_Concurrency.MainActor(unsafe) public var playerState: TrainingSDK.YTPlayerState {
-    get
-  }
-  @_Concurrency.MainActor(unsafe) public var currentTime: Swift.Float {
-    get
-  }
-  @_Concurrency.MainActor(unsafe) public var playbackQuality: TrainingSDK.YTPlaybackQuality {
-    get
-    set
-  }
-  @_Concurrency.MainActor(unsafe) public func availableQualityLevels() -> [TrainingSDK.YTPlaybackQuality]?
-  @_Concurrency.MainActor(unsafe) public var duration: Foundation.TimeInterval {
-    get
-  }
-  @_Concurrency.MainActor(unsafe) public var videoUrl: Foundation.URL? {
-    get
-  }
-  @_Concurrency.MainActor(unsafe) public var videoEmbedCode: Swift.String {
-    get
-  }
-  @_Concurrency.MainActor(unsafe) public func playlist() -> [Swift.String]?
-  @_Concurrency.MainActor(unsafe) public func playlistIndex() -> Swift.Int
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
-  @objc deinit
-}
-extension TrainingSDK.YTPlayerView : UIKit.UIWebViewDelegate {
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func webView(_ webView: UIKit.UIWebView, shouldStartLoadWith request: Foundation.URLRequest, navigationType: UIKit.UIWebView.NavigationType) -> Swift.Bool
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func webView(_ webView: UIKit.UIWebView, didFailLoadWithError error: any Swift.Error)
 }
 public struct WorkoutSummary : Swift.Codable {
   public var title: Swift.String?
@@ -211,6 +63,88 @@ public struct TrainingDevice : Swift.Codable {
 }
 extension UIKit.UIFont {
   public static func jbs_registerFont(withFilenameString filenameString: Swift.String, bundle: Foundation.Bundle)
+}
+public enum PlayerState : Swift.String {
+  case unstarted
+  case ended
+  case playing
+  case paused
+  case buffering
+  case queued
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum PlayerEvents : Swift.String {
+  case iframeAPIReady
+  case ready
+  case stateChange
+  case playbackQualityChange
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum PlaybackQuality : Swift.String {
+  case small
+  case medium
+  case large
+  case hd720
+  case hd1080
+  case highResolution
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public protocol YouTubePlayerDelegate : AnyObject {
+  func playerReady(_ videoPlayer: TrainingSDK.YouTubePlayerView)
+  func playerStateChanged(_ videoPlayer: TrainingSDK.YouTubePlayerView, playerState: TrainingSDK.PlayerState)
+  func playerQualityChanged(_ videoPlayer: TrainingSDK.YouTubePlayerView, playbackQuality: TrainingSDK.PlaybackQuality)
+}
+extension TrainingSDK.YouTubePlayerDelegate {
+  public func playerReady(_ videoPlayer: TrainingSDK.YouTubePlayerView)
+  public func playerStateChanged(_ videoPlayer: TrainingSDK.YouTubePlayerView, playerState: TrainingSDK.PlayerState)
+  public func playerQualityChanged(_ videoPlayer: TrainingSDK.YouTubePlayerView, playbackQuality: TrainingSDK.PlaybackQuality)
+}
+public func videoIDFromYouTubeURL(_ videoURL: Foundation.URL) -> Swift.String?
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class YouTubePlayerView : UIKit.UIView, WebKit.WKNavigationDelegate {
+  public typealias YouTubePlayerParameters = [Swift.String : Swift.AnyObject]
+  @_Concurrency.MainActor(unsafe) public var baseURL: Swift.String
+  @_Concurrency.MainActor(unsafe) open var ready: Swift.Bool {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) open var playerState: TrainingSDK.PlayerState {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) open var playbackQuality: TrainingSDK.PlaybackQuality {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) open var playerVars: TrainingSDK.YouTubePlayerView.YouTubePlayerParameters
+  @_Concurrency.MainActor(unsafe) weak open var delegate: (any TrainingSDK.YouTubePlayerDelegate)?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func layoutSubviews()
+  @_Concurrency.MainActor(unsafe) open func loadVideoURL(_ videoURL: Foundation.URL)
+  @_Concurrency.MainActor(unsafe) open func loadVideoID(_ videoID: Swift.String)
+  @_Concurrency.MainActor(unsafe) open func loadPlaylistID(_ playlistID: Swift.String)
+  @_Concurrency.MainActor(unsafe) open func mute()
+  @_Concurrency.MainActor(unsafe) open func unMute()
+  @_Concurrency.MainActor(unsafe) open func play()
+  @_Concurrency.MainActor(unsafe) open func pause()
+  @_Concurrency.MainActor(unsafe) open func stop()
+  @_Concurrency.MainActor(unsafe) open func clear()
+  @_Concurrency.MainActor(unsafe) open func seekTo(_ seconds: Swift.Float, seekAhead: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) open func getDuration(completion: ((Swift.Double?) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor(unsafe) open func getCurrentTime(completion: ((Swift.Double?) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor(unsafe) open func previousVideo()
+  @_Concurrency.MainActor(unsafe) open func nextVideo()
+  @_Concurrency.MainActor(unsafe) @objc open func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationAction: WebKit.WKNavigationAction, decisionHandler: @escaping (WebKit.WKNavigationActionPolicy) -> Swift.Void)
+  @objc deinit
 }
 @_hasMissingDesignatedInitializers public class WorkoutSDK {
   public static let sharedInstance: TrainingSDK.WorkoutSDK
@@ -328,21 +262,15 @@ public enum HCVimeoVideoQuality : Swift.String {
 public protocol TrainingEventsDelegate : AnyObject {
   func sendEvent(_ event: TrainingSDK.TrainingEvent)
 }
-extension TrainingSDK.YTPlayerState : Swift.Equatable {}
-extension TrainingSDK.YTPlayerState : Swift.Hashable {}
-extension TrainingSDK.YTPlayerState : Swift.RawRepresentable {}
-extension TrainingSDK.YTPlaybackQuality : Swift.Equatable {}
-extension TrainingSDK.YTPlaybackQuality : Swift.Hashable {}
-extension TrainingSDK.YTPlaybackQuality : Swift.RawRepresentable {}
-extension TrainingSDK.YTPlayerError : Swift.Equatable {}
-extension TrainingSDK.YTPlayerError : Swift.Hashable {}
-extension TrainingSDK.YTPlayerError : Swift.RawRepresentable {}
-extension TrainingSDK.YTPlayerCallback : Swift.Equatable {}
-extension TrainingSDK.YTPlayerCallback : Swift.Hashable {}
-extension TrainingSDK.YTPlayerCallback : Swift.RawRepresentable {}
-extension TrainingSDK.YTRegexPatterns : Swift.Equatable {}
-extension TrainingSDK.YTRegexPatterns : Swift.Hashable {}
-extension TrainingSDK.YTRegexPatterns : Swift.RawRepresentable {}
+extension TrainingSDK.PlayerState : Swift.Equatable {}
+extension TrainingSDK.PlayerState : Swift.Hashable {}
+extension TrainingSDK.PlayerState : Swift.RawRepresentable {}
+extension TrainingSDK.PlayerEvents : Swift.Equatable {}
+extension TrainingSDK.PlayerEvents : Swift.Hashable {}
+extension TrainingSDK.PlayerEvents : Swift.RawRepresentable {}
+extension TrainingSDK.PlaybackQuality : Swift.Equatable {}
+extension TrainingSDK.PlaybackQuality : Swift.Hashable {}
+extension TrainingSDK.PlaybackQuality : Swift.RawRepresentable {}
 extension TrainingSDK.Pathologies : Swift.Equatable {}
 extension TrainingSDK.Pathologies : Swift.Hashable {}
 extension TrainingSDK.Pathologies : Swift.RawRepresentable {}

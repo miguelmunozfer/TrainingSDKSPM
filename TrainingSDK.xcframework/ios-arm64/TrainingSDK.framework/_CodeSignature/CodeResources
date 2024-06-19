@@ -230,11 +230,11 @@
 		</data>
 		<key>Base.lproj/VirtualTraining.storyboardc/ZIK-IE-rOh-view-2zB-4q-skZ.nib/objects-12.3+.nib</key>
 		<data>
-		sdBoFDeMgwLw0I17XsrAI2mWJsg=
+		4YC91wL0uVBJrYBIUieAzKp+LLg=
 		</data>
 		<key>Base.lproj/VirtualTraining.storyboardc/ZIK-IE-rOh-view-2zB-4q-skZ.nib/objects-13.0+.nib</key>
 		<data>
-		/+6s/qeC/Vf0NekXFai53ZPdI5Q=
+		k7by5Y0PxfEV9UfiSlK85IOVM40=
 		</data>
 		<key>Base.lproj/VirtualTraining.storyboardc/ZIK-IE-rOh-view-2zB-4q-skZ.nib/runtime.nib</key>
 		<data>
@@ -262,7 +262,7 @@
 		</data>
 		<key>Base.lproj/VirtualTraining.storyboardc/dLd-fU-dx4-view-AH4-8Y-FIi.nib/runtime.nib</key>
 		<data>
-		njHrfI9GLxlgXgbM+PPgBcNa7/I=
+		nniM0gN2+5rgyRbobRPIs6mZ/ug=
 		</data>
 		<key>Base.lproj/VirtualTraining.storyboardc/finishPageContent.nib/objects-12.3+.nib</key>
 		<data>
@@ -338,15 +338,15 @@
 		</data>
 		<key>Base.lproj/VirtualTraining.storyboardc/tYZ-Vm-1YX-view-FaZ-4D-52g.nib/objects-12.3+.nib</key>
 		<data>
-		1xZTW3+t3a3Ts+STLGQKsX0HwsI=
+		2DEZn8uCBxwTYldvYVzDQPG3BHQ=
 		</data>
 		<key>Base.lproj/VirtualTraining.storyboardc/tYZ-Vm-1YX-view-FaZ-4D-52g.nib/objects-13.0+.nib</key>
 		<data>
-		OCdyB5xjB5Fx3+yDkBm0Ju61/JQ=
+		w0CkBSxiCe4S84rw27tL+CyxrZA=
 		</data>
 		<key>Base.lproj/VirtualTraining.storyboardc/tYZ-Vm-1YX-view-FaZ-4D-52g.nib/runtime.nib</key>
 		<data>
-		zEJjXXmQus958VpO4gTdbSEoreA=
+		OFvj4oVEW7elF6v9QP2ejWD0E3A=
 		</data>
 		<key>Base.lproj/VirtualTraining.storyboardc/vRb-8M-ekZ-view-n8b-DX-Tha.nib/objects-12.3+.nib</key>
 		<data>
@@ -430,11 +430,11 @@
 		</data>
 		<key>ExerciseView.nib</key>
 		<data>
-		5I7F/DT7t78NkXnqnZ8DrSl4cVk=
+		pZlJ7BCPM3v4RedWgMmSUtoRMaA=
 		</data>
 		<key>Headers/TrainingSDK-Swift.h</key>
 		<data>
-		4gfPnNW0rOt7gxQelVO36tQhyro=
+		j6eSLPrfjkIBA/Ei23F7EcnqW3c=
 		</data>
 		<key>HealthQuestionView.nib</key>
 		<data>
@@ -446,23 +446,23 @@
 		</data>
 		<key>Modules/TrainingSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		BgQaCbZ7ursZPArKLx9qLS85S8k=
+		bLzHJw4eyMYmY8lM+O0haIyaa1o=
 		</data>
 		<key>Modules/TrainingSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		WYK1YWH8J+Ia4MUmgmHDP/Dg6vg=
+		1u1673Zj+u0epI3xDvgJpHTshHA=
 		</data>
 		<key>Modules/TrainingSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		q4S4udQfA6KLYI/VZ9F4Hna17O4=
+		NEmg/6oXmcVH3itb/bBT3cPmDAE=
 		</data>
 		<key>Modules/TrainingSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		WYK1YWH8J+Ia4MUmgmHDP/Dg6vg=
+		1u1673Zj+u0epI3xDvgJpHTshHA=
 		</data>
 		<key>Modules/TrainingSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		5YbLwGVfM0e8lW7UTVNSbcyiDmE=
+		TlQ1MGMlBNZe9MSNhWE5T2BrFBg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -615,6 +615,10 @@
 		<key>WorkoutSummaryView.nib</key>
 		<data>
 		ky/HZxbKnUrqwAfEPPaC/uetIoU=
+		</data>
+		<key>YTPlayer.html</key>
+		<data>
+		uv3JLtIXlewPK6USYvwcWKTgLvM=
 		</data>
 		<key>YTPlayerView-iframe-player.html</key>
 		<data>
@@ -1332,14 +1336,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7FE4zm9YzUyKgmdUwLSnjKjMwbw9/Wk4oUl0ry3u9OI=
+			KffdPQpOOqogXD1Av7/RmZ7ouHjGP4bqKvyLFgVVFlE=
 			</data>
 		</dict>
 		<key>Base.lproj/VirtualTraining.storyboardc/ZIK-IE-rOh-view-2zB-4q-skZ.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5HPYR30Bx8eHISS0N7b1ZwirwhPF5RTcAvmDckxnG6U=
+			IQ/61t8+/HIQqYrHJLh70op/jQuk8HTL1xm3xlzdcEQ=
 			</data>
 		</dict>
 		<key>Base.lproj/VirtualTraining.storyboardc/ZIK-IE-rOh-view-2zB-4q-skZ.nib/runtime.nib</key>
@@ -1388,7 +1392,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yROnTWbcrvM91z39IidlVgZ73SHNJFmC7s75F9rW1aI=
+			Y9A1MhPKfZqHw2OHkJoMmCb30HMeb1aybaINXPM5iZo=
 			</data>
 		</dict>
 		<key>Base.lproj/VirtualTraining.storyboardc/finishPageContent.nib/objects-12.3+.nib</key>
@@ -1521,21 +1525,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AAEgOhhVT5XvDgI4euJIWqkcEiBk4Mgbhg3i/AdxTrQ=
+			k+LhZx9HwhGDQLJB0NgT/c9lMgnaJ5O1wZgD3gzwlpY=
 			</data>
 		</dict>
 		<key>Base.lproj/VirtualTraining.storyboardc/tYZ-Vm-1YX-view-FaZ-4D-52g.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			F3J2ZYtCiwhVKPPNcS29j4EjXGnD78UUyrnwuBthmGs=
+			vXkVrU1mo5SR43Zm/Cct1wiKtXqm5SFGpxeQIbAZtFs=
 			</data>
 		</dict>
 		<key>Base.lproj/VirtualTraining.storyboardc/tYZ-Vm-1YX-view-FaZ-4D-52g.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dz9WAGDxrmgKxyP0jwDJ6/yFRu1ABZyiwdvzcCPQBII=
+			mlQLxp7pKMQb3uwRDwXvhVxZk5f2im6N4fsTX41SPvU=
 			</data>
 		</dict>
 		<key>Base.lproj/VirtualTraining.storyboardc/vRb-8M-ekZ-view-n8b-DX-Tha.nib/objects-12.3+.nib</key>
@@ -1682,14 +1686,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FfO8Z47GebgqIIJgUbfV/qaVRUu6i1hUU7NPXemPJHc=
+			BLRmKwo9R5GECYP9mL2sjGbo7pfOx2I8spM/tpPFLCw=
 			</data>
 		</dict>
 		<key>Headers/TrainingSDK-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zCHDwzGrdveCqDNdx6l65VR/SUfcOH9mQ4yniiNe32c=
+			0RIlagYi2pTdMMX8K6GeCKxKducJ+/WRY/rPkFRVWSg=
 			</data>
 		</dict>
 		<key>HealthQuestionView.nib</key>
@@ -1703,35 +1707,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hkTw1+eaHCnJfw1lcBMrdjhthA1y7wRyA/+GpSIfvZQ=
+			Y2YuAHa+V5Fadorbw3xQYmHiAvjLDryzRI17qnOn154=
 			</data>
 		</dict>
 		<key>Modules/TrainingSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XNO8q1wbTgI5KiYqagI7T5CyS7Fk/OpxDJpq+khIOBo=
+			+wyNdzv8xtvPKpxEbdZuB3/lzE9MH3Q2Y4CbqC8YM4w=
 			</data>
 		</dict>
 		<key>Modules/TrainingSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/siF2+kmuG3u1Czmq2Ym/jy/Xh8V5F3JGBvftuCgv6o=
+			Ybm9FcffUrSHRh4FVmuXxaZr8+ce8lY0JCuehMfEgEo=
 			</data>
 		</dict>
 		<key>Modules/TrainingSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XNO8q1wbTgI5KiYqagI7T5CyS7Fk/OpxDJpq+khIOBo=
+			+wyNdzv8xtvPKpxEbdZuB3/lzE9MH3Q2Y4CbqC8YM4w=
 			</data>
 		</dict>
 		<key>Modules/TrainingSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gAnCADMMeJmbs70FnNFXcNX0kNcEhF0NyI0WYlnYJzM=
+			bOGOv7RDSc+u8t5Jup9bCMQp531JA+5TPDy1Af04I40=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -1998,6 +2002,13 @@
 			<key>hash2</key>
 			<data>
 			85bnVqwaFq2GStnUBiMhkloeeVbICibt19tEMe1XEBQ=
+			</data>
+		</dict>
+		<key>YTPlayer.html</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			2w/q7kT3RrE281IcL0HHSFsK6ssECMRuxsUTM4xrtRs=
 			</data>
 		</dict>
 		<key>YTPlayerView-iframe-player.html</key>
