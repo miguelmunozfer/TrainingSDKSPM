@@ -210,7 +210,7 @@
 		</data>
 		<key>Base.lproj/VirtualTraining.storyboardc/VirtualPTFinishViewController.nib/objects-13.0+.nib</key>
 		<data>
-		MMa2VGmAbXbnH5UC/2Il7d3aJS8=
+		FL4tV1C47HfSL3Z0q4vsrNapSdM=
 		</data>
 		<key>Base.lproj/VirtualTraining.storyboardc/VirtualPTFinishViewController.nib/runtime.nib</key>
 		<data>
@@ -230,15 +230,15 @@
 		</data>
 		<key>Base.lproj/VirtualTraining.storyboardc/ZIK-IE-rOh-view-2zB-4q-skZ.nib/objects-12.3+.nib</key>
 		<data>
-		uOhWxPR+1f3MGuZzCI6SOPW89k8=
+		mXX1CeCrNGNHpFnFpdxIT5XZ1eo=
 		</data>
 		<key>Base.lproj/VirtualTraining.storyboardc/ZIK-IE-rOh-view-2zB-4q-skZ.nib/objects-13.0+.nib</key>
 		<data>
-		mG+khbu8HzWvOpIva0BdTpSfOXc=
+		76PVKwYWDWa1G+nWKnYP8G7rJ2U=
 		</data>
 		<key>Base.lproj/VirtualTraining.storyboardc/ZIK-IE-rOh-view-2zB-4q-skZ.nib/runtime.nib</key>
 		<data>
-		3Fh+B1ffvcUG0LhE/pGiGvJVDXY=
+		gaRgiKNncmoE9ZbqmA6iCLLn6e8=
 		</data>
 		<key>Base.lproj/VirtualTraining.storyboardc/bTJ-tu-2Ef-view-sQw-8C-RPX.nib/objects-12.3+.nib</key>
 		<data>
@@ -258,11 +258,11 @@
 		</data>
 		<key>Base.lproj/VirtualTraining.storyboardc/dLd-fU-dx4-view-AH4-8Y-FIi.nib/objects-13.0+.nib</key>
 		<data>
-		kHOXA2X0TaJvXFOccA3WW6R0Xng=
+		7FaJgf4si3I85eGYeS53wenvZFI=
 		</data>
 		<key>Base.lproj/VirtualTraining.storyboardc/dLd-fU-dx4-view-AH4-8Y-FIi.nib/runtime.nib</key>
 		<data>
-		nniM0gN2+5rgyRbobRPIs6mZ/ug=
+		8KDKzvrhbIflNHgv/AACk8GacGA=
 		</data>
 		<key>Base.lproj/VirtualTraining.storyboardc/finishPageContent.nib/objects-12.3+.nib</key>
 		<data>
@@ -338,7 +338,7 @@
 		</data>
 		<key>Base.lproj/VirtualTraining.storyboardc/tYZ-Vm-1YX-view-FaZ-4D-52g.nib/objects-12.3+.nib</key>
 		<data>
-		2DEZn8uCBxwTYldvYVzDQPG3BHQ=
+		zEJjXXmQus958VpO4gTdbSEoreA=
 		</data>
 		<key>Base.lproj/VirtualTraining.storyboardc/tYZ-Vm-1YX-view-FaZ-4D-52g.nib/objects-13.0+.nib</key>
 		<data>
@@ -386,7 +386,7 @@
 		</data>
 		<key>Base.lproj/profile-settings.json</key>
 		<data>
-		YHZ6aESKJtzWwvlp9lrTqt6dK40=
+		ivguWggJsnxBYwTdif0drcidb/Y=
 		</data>
 		<key>ClassCategoriesViewController.nib</key>
 		<data>
@@ -760,6 +760,15 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>en.lproj/profile-settings.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			6XP3CCdFdJhPjaRq4S8vQQwm00M=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>es.lproj/Leyenda.plist</key>
 		<dict>
 			<key>hash</key>
@@ -773,7 +782,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zmV6UqBSo6r1NOz798vd5O4zTBA=
+			p5AGWNmNIhxWzcMi0DtcIlaqu+0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -809,7 +818,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zmV6UqBSo6r1NOz798vd5O4zTBA=
+			p5AGWNmNIhxWzcMi0DtcIlaqu+0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1321,7 +1330,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vyTbTCGr3ewT4mm5qpYG/zEc8Fm5CnJNPdGOwuiX9cY=
+			Arlhu71Fu2aCmmGxGvuPB3t0h+G4hJ2JUOdI9/wLt0k=
 			</data>
 		</dict>
 		<key>Base.lproj/VirtualTraining.storyboardc/VirtualPTFinishViewController.nib/runtime.nib</key>
@@ -1356,21 +1365,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mrqxziAThFdjcIJm3i5DQ3bbvofcCnlYmyfGYMxXr3I=
+			ZtXVzBqsEomts3kOJp/x99/Ctu/fReB4MEMboMaFL+g=
 			</data>
 		</dict>
 		<key>Base.lproj/VirtualTraining.storyboardc/ZIK-IE-rOh-view-2zB-4q-skZ.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			joUtjs+S0GD/DyX2E3PoFsb6IdeUVRWG5sAJcXaUED4=
+			vfRG2fverhbUGjyrtoaGKWLQzkAtzGzjWbvLV6zdoqc=
 			</data>
 		</dict>
 		<key>Base.lproj/VirtualTraining.storyboardc/ZIK-IE-rOh-view-2zB-4q-skZ.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			57RgHIwRZmzn1IN78TFfCv+9dXh7hJbublORnx0ctf4=
+			WeVIjl8WMXqQvieKlj9mPTYUB1d5KDr2kuW1fzkDPc8=
 			</data>
 		</dict>
 		<key>Base.lproj/VirtualTraining.storyboardc/bTJ-tu-2Ef-view-sQw-8C-RPX.nib/objects-12.3+.nib</key>
@@ -1405,14 +1414,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AKeq4ekaYYVL979+u+J1sEdmuwSJNDllg6sXMIEkwqM=
+			bqooYLVQU9p+KCd2glxKa7P+KeE+lkielKwmby5d+wE=
 			</data>
 		</dict>
 		<key>Base.lproj/VirtualTraining.storyboardc/dLd-fU-dx4-view-AH4-8Y-FIi.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Y9A1MhPKfZqHw2OHkJoMmCb30HMeb1aybaINXPM5iZo=
+			5erubLpwF9aG44n59QrrcymPTnO9h5tnSq9AAP1XPis=
 			</data>
 		</dict>
 		<key>Base.lproj/VirtualTraining.storyboardc/finishPageContent.nib/objects-12.3+.nib</key>
@@ -1545,7 +1554,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			k+LhZx9HwhGDQLJB0NgT/c9lMgnaJ5O1wZgD3gzwlpY=
+			dz9WAGDxrmgKxyP0jwDJ6/yFRu1ABZyiwdvzcCPQBII=
 			</data>
 		</dict>
 		<key>Base.lproj/VirtualTraining.storyboardc/tYZ-Vm-1YX-view-FaZ-4D-52g.nib/objects-13.0+.nib</key>
@@ -1629,7 +1638,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tZkOQizwbEwryx94WD5mHMEUWa+uGAWmoslkjwGxdV8=
+			HdcLEtc8QCkSqaN4HbhVSffrXIc2f+HgcdR73odTdPU=
 			</data>
 		</dict>
 		<key>ClassCategoriesViewController.nib</key>
@@ -2195,6 +2204,15 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>en.lproj/profile-settings.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			eDmTHK9wc6uRmNNWWsWMRODxazWqpc65Ej210RbtQnk=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>es.lproj/Leyenda.plist</key>
 		<dict>
 			<key>hash2</key>
@@ -2208,7 +2226,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kmHsztpgjvF0JW5f3HdMHm49z1M0CcG8OT1JDQHHE/E=
+			19mIgm7wtjeGtIclIw5iOKMkDuNtz7jnTInt+ViSVmM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2244,7 +2262,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kmHsztpgjvF0JW5f3HdMHm49z1M0CcG8OT1JDQHHE/E=
+			19mIgm7wtjeGtIclIw5iOKMkDuNtz7jnTInt+ViSVmM=
 			</data>
 			<key>optional</key>
 			<true/>

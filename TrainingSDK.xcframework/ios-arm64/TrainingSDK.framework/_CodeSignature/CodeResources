@@ -230,11 +230,11 @@
 		</data>
 		<key>Base.lproj/VirtualTraining.storyboardc/ZIK-IE-rOh-view-2zB-4q-skZ.nib/objects-12.3+.nib</key>
 		<data>
-		sdBoFDeMgwLw0I17XsrAI2mWJsg=
+		8rIdqzfP6dUO6jVkY3ItlTcdGiA=
 		</data>
 		<key>Base.lproj/VirtualTraining.storyboardc/ZIK-IE-rOh-view-2zB-4q-skZ.nib/objects-13.0+.nib</key>
 		<data>
-		k7by5Y0PxfEV9UfiSlK85IOVM40=
+		mG+khbu8HzWvOpIva0BdTpSfOXc=
 		</data>
 		<key>Base.lproj/VirtualTraining.storyboardc/ZIK-IE-rOh-view-2zB-4q-skZ.nib/runtime.nib</key>
 		<data>
@@ -258,11 +258,11 @@
 		</data>
 		<key>Base.lproj/VirtualTraining.storyboardc/dLd-fU-dx4-view-AH4-8Y-FIi.nib/objects-13.0+.nib</key>
 		<data>
-		cq9e27g8136WcLDOCYswMXfuuXY=
+		tSSZOlFuZ8Yse5SFTO06G38lAk0=
 		</data>
 		<key>Base.lproj/VirtualTraining.storyboardc/dLd-fU-dx4-view-AH4-8Y-FIi.nib/runtime.nib</key>
 		<data>
-		bp+U5K+XdcYAw3rcCUOT4ACAgWI=
+		ucAhI9uKLqnqXEcLm+pxP1YcjCg=
 		</data>
 		<key>Base.lproj/VirtualTraining.storyboardc/finishPageContent.nib/objects-12.3+.nib</key>
 		<data>
@@ -338,15 +338,15 @@
 		</data>
 		<key>Base.lproj/VirtualTraining.storyboardc/tYZ-Vm-1YX-view-FaZ-4D-52g.nib/objects-12.3+.nib</key>
 		<data>
-		nyr24lbbKSMaLLrirauF8e9FDJQ=
+		2DEZn8uCBxwTYldvYVzDQPG3BHQ=
 		</data>
 		<key>Base.lproj/VirtualTraining.storyboardc/tYZ-Vm-1YX-view-FaZ-4D-52g.nib/objects-13.0+.nib</key>
 		<data>
-		maXBqCKMMLNpRSTnsXVB1g4/c/I=
+		NFrdEodHzcnq/l6CHFRUFK3EAbo=
 		</data>
 		<key>Base.lproj/VirtualTraining.storyboardc/tYZ-Vm-1YX-view-FaZ-4D-52g.nib/runtime.nib</key>
 		<data>
-		0ZPL7qs+46kOsBN//3K6d+EOKuY=
+		2DEZn8uCBxwTYldvYVzDQPG3BHQ=
 		</data>
 		<key>Base.lproj/VirtualTraining.storyboardc/vRb-8M-ekZ-view-n8b-DX-Tha.nib/objects-12.3+.nib</key>
 		<data>
@@ -386,7 +386,7 @@
 		</data>
 		<key>Base.lproj/profile-settings.json</key>
 		<data>
-		YHZ6aESKJtzWwvlp9lrTqt6dK40=
+		ivguWggJsnxBYwTdif0drcidb/Y=
 		</data>
 		<key>ClassCategoriesViewController.nib</key>
 		<data>
@@ -740,6 +740,15 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>en.lproj/profile-settings.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			6XP3CCdFdJhPjaRq4S8vQQwm00M=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>es.lproj/Leyenda.plist</key>
 		<dict>
 			<key>hash</key>
@@ -753,7 +762,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zmV6UqBSo6r1NOz798vd5O4zTBA=
+			p5AGWNmNIhxWzcMi0DtcIlaqu+0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -789,7 +798,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zmV6UqBSo6r1NOz798vd5O4zTBA=
+			p5AGWNmNIhxWzcMi0DtcIlaqu+0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1336,14 +1345,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7FE4zm9YzUyKgmdUwLSnjKjMwbw9/Wk4oUl0ry3u9OI=
+			MNfVZuVxbsvoCuEWzEko1rBAid0vVmXxUoFRnlrznEk=
 			</data>
 		</dict>
 		<key>Base.lproj/VirtualTraining.storyboardc/ZIK-IE-rOh-view-2zB-4q-skZ.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IQ/61t8+/HIQqYrHJLh70op/jQuk8HTL1xm3xlzdcEQ=
+			joUtjs+S0GD/DyX2E3PoFsb6IdeUVRWG5sAJcXaUED4=
 			</data>
 		</dict>
 		<key>Base.lproj/VirtualTraining.storyboardc/ZIK-IE-rOh-view-2zB-4q-skZ.nib/runtime.nib</key>
@@ -1385,14 +1394,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			krzy/fEcdXknkkxPxz+6WX3RJHNGWAquIZysgsJL7hs=
+			eVt9q+AjB35gL7kfbb53ROnjtsF5vJrHjfViFn1IBig=
 			</data>
 		</dict>
 		<key>Base.lproj/VirtualTraining.storyboardc/dLd-fU-dx4-view-AH4-8Y-FIi.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3gJRZqi3l1mUvl1T/bGJ+hleRPKKVQUbS96Ue9SpkKQ=
+			NzHaT3YstN7yyrl7GtgrXixRY+/RlI8DeRvm7wHA5IA=
 			</data>
 		</dict>
 		<key>Base.lproj/VirtualTraining.storyboardc/finishPageContent.nib/objects-12.3+.nib</key>
@@ -1525,21 +1534,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zsluUGQ669/JvZ8iNcKj657RuLi9i8B/dGWhN3DteMc=
+			k+LhZx9HwhGDQLJB0NgT/c9lMgnaJ5O1wZgD3gzwlpY=
 			</data>
 		</dict>
 		<key>Base.lproj/VirtualTraining.storyboardc/tYZ-Vm-1YX-view-FaZ-4D-52g.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eLBt/9awR62fP2R1EavPHZfQ6nnftz/gsdBWOPqyn90=
+			NfPZyxlMXya4oHgRKtyP5Y/NHvSmq7QVKOc06ep+5Us=
 			</data>
 		</dict>
 		<key>Base.lproj/VirtualTraining.storyboardc/tYZ-Vm-1YX-view-FaZ-4D-52g.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QiHYyQo7hIH49hg3eCmkGeK7Ow3f30/7gnD1fvwSSz0=
+			k+LhZx9HwhGDQLJB0NgT/c9lMgnaJ5O1wZgD3gzwlpY=
 			</data>
 		</dict>
 		<key>Base.lproj/VirtualTraining.storyboardc/vRb-8M-ekZ-view-n8b-DX-Tha.nib/objects-12.3+.nib</key>
@@ -1609,7 +1618,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tZkOQizwbEwryx94WD5mHMEUWa+uGAWmoslkjwGxdV8=
+			HdcLEtc8QCkSqaN4HbhVSffrXIc2f+HgcdR73odTdPU=
 			</data>
 		</dict>
 		<key>ClassCategoriesViewController.nib</key>
@@ -2140,6 +2149,15 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>en.lproj/profile-settings.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			eDmTHK9wc6uRmNNWWsWMRODxazWqpc65Ej210RbtQnk=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>es.lproj/Leyenda.plist</key>
 		<dict>
 			<key>hash2</key>
@@ -2153,7 +2171,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kmHsztpgjvF0JW5f3HdMHm49z1M0CcG8OT1JDQHHE/E=
+			19mIgm7wtjeGtIclIw5iOKMkDuNtz7jnTInt+ViSVmM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2189,7 +2207,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kmHsztpgjvF0JW5f3HdMHm49z1M0CcG8OT1JDQHHE/E=
+			19mIgm7wtjeGtIclIw5iOKMkDuNtz7jnTInt+ViSVmM=
 			</data>
 			<key>optional</key>
 			<true/>
